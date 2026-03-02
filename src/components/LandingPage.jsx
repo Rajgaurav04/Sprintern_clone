@@ -497,9 +497,48 @@ const LandingPage = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      
+      {/* Section 4 - Get Started Section (last) */}
 
+      <div className="py-30 px-20 w-full flex flex-row justify-around items-center">
+        <div className="w-1/2 px-10 py-20  flex flex-col items-start justify-center">
+          <h1 className="text-start text-white font-bold text-6xl mb-4">Ready to sprint into your career?</h1>
+          <p className="text-gray-400 font-semibold text-lg mb-4">Join 5000+ students who transformed their technical skills with Sprintern. Get updates, early access, and exclusive offers straight to your inbox.</p>
+
+          <div className="flex flex-row space-x-10">
+            <span className="flex flex-col items-start justify-center">
+              <span><p className="text-4xl font-bold text-white ">100+</p></span>
+              <span><p className="text-sm font-semibold text-gray-400">Students</p></span>
+            </span>
+            <span className="flex flex-col items-start justify-center">
+              <span><p className="text-4xl font-bold text-white ">10+</p></span>
+              <span><p className="text-sm font-semibold text-gray-400">Projects</p></span>
+            </span>
+            <span className="flex flex-col items-start justify-center">
+              <span><p className="text-4xl font-bold text-white ">60%</p></span>
+              <span><p className="text-sm font-semibold text-gray-400">Career Boost</p></span>
+            </span>
+          </div>
 
         </div>
+        <div className="w-1/2 mx-16 px-10 py-10 border border-gray-700 rounded-2xl bg-[#0b0a1f]">
+                <h2 className="text-2xl font-semibold text-white mb-8">Get Started Today</h2>
+            <form action="">
+              <label htmlFor="name" className="mb-2 block font-medium text-md text-gray-300">Full Name *</label>
+              <input id="name" type="text" placeholder="Enter your name" className="w-full px-8 py-3 bg-[#0F1932] placeholder-amber-100 placeholder-opacity-10 rounded-full mb-6" />
+              <label htmlFor="email" className="mb-2 block font-medium text-md text-gray-300">Email *</label>
+              <input id="email" type="text" placeholder="Enter your email" className="w-full px-8 py-3 bg-[#0F1932] placeholder-amber-100 placeholder-opacity-10 rounded-full mb-6" />
+              <label htmlFor="name" className="mb-2 block font-medium text-md text-gray-300">College (Optional)</label>
+              <input id="name" type="text" placeholder="Enter your college name" className="w-full px-8 py-3 bg-[#0F1932] placeholder-amber-100 placeholder-opacity-10 rounded-full mb-10 " />
+              <button className="w-full py-3 bg-sky-500 rounded-full  cursor-pointer bg-linear-to-br from-sky-500 to-blue-600  text-white hover:from-sky-400 hover:to-blue-500 font-semibold">Claim Your Spot → </button>
+
+              <p className="text-xs text-gray-400 pt-4">We respect your privacy. No spam, ever.</p>
+            </form>
+         
+        </div>
+        <div></div>
       </div>
     </div>
   )
