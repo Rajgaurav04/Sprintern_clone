@@ -2,7 +2,7 @@
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#030712] text-white px-14 py-6 sticky top-0">
+    <nav className="bg-[#030712] text-white px-14 py-6 sticky top-0 z-10">
         <div  className="flex flex-row justify-between items-center ">
             <div className="text-[#E5E7EB] text-3xl font-bold">SPRINTERN.</div>
             <div>
