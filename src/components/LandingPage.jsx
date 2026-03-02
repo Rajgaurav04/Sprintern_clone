@@ -527,11 +527,11 @@ const LandingPage = () => {
                 <h2 className="text-2xl font-semibold text-white mb-8">Get Started Today</h2>
             <form action="">
               <label htmlFor="name" className="mb-2 block font-medium text-md text-gray-300">Full Name *</label>
-              <input id="name" type="text" placeholder="Enter your name" className="w-full px-8 py-3 bg-[#0F1932] placeholder-amber-100 placeholder-opacity-10 rounded-full mb-6" />
+              <input id="name" type="text" placeholder="Enter your name" className="w-full px-8 py-3 bg-[#0F1932] placeholder-gray-300 placeholder-opacity-10 rounded-full mb-6" />
               <label htmlFor="email" className="mb-2 block font-medium text-md text-gray-300">Email *</label>
-              <input id="email" type="text" placeholder="Enter your email" className="w-full px-8 py-3 bg-[#0F1932] placeholder-amber-100 placeholder-opacity-10 rounded-full mb-6" />
+              <input id="email" type="text" placeholder="Enter your email" className="w-full px-8 py-3 bg-[#0F1932] placeholder-gray-300 placeholder-opacity-10 rounded-full mb-6" />
               <label htmlFor="name" className="mb-2 block font-medium text-md text-gray-300">College (Optional)</label>
-              <input id="name" type="text" placeholder="Enter your college name" className="w-full px-8 py-3 bg-[#0F1932] placeholder-amber-100 placeholder-opacity-10 rounded-full mb-10 " />
+              <input id="name" type="text" placeholder="Enter your college name" className="w-full px-8 py-3 bg-[#0F1932] placeholder-gray-300 placeholder-opacity-10 rounded-full mb-10 " />
               <button className="w-full py-3 bg-sky-500 rounded-full  cursor-pointer bg-linear-to-br from-sky-500 to-blue-600  text-white hover:from-sky-400 hover:to-blue-500 font-semibold">Claim Your Spot → </button>
 
               <p className="text-xs text-gray-400 pt-4">We respect your privacy. No spam, ever.</p>

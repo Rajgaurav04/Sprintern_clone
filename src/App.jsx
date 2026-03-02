@@ -1,12 +1,14 @@
 import Navbar from './components/Navbar'
-import Main from './components/LandingPage'
+import LandingPage from './components/LandingPage'
+import Footer from './components/Footer'
 import './App.css'
 function App() {
 
   return (
     <>
     <Navbar />
-    <Main/>
+    <LandingPage/>
+    <Footer/>
     </>
   )
 }
