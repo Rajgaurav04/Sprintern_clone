@@ -9,12 +9,12 @@ const LandingPage = () => {
         <div className="w-1/2 flex flex-col justify-center items-start px-16 py-6">
 
 
-          <p className="text-xs text-gray-300 px-4 font-semibold py-[6px] bg-linear-to-br from-emerald-500/10 to-purple-500/30 rounded-full mb-3  border  border-purple-500 ">LIMITED SEATS AVAILABLE!</p>
+          <p className="text-xs text-gray-300 px-4 font-semibold py-1.5 bg-linear-to-br from-emerald-500/10 to-purple-500/30 rounded-full mb-3  border  border-purple-500 ">LIMITED SEATS AVAILABLE!</p>
           <h1 className="text-7xl font-bold text-white mb-6 ">Master Engineering Internships in <span className="whitespace-nowrap bg-linear-to-r from-sky-500 via-emerald-400 to-pink-400 text-transparent bg-clip-text">Just 28 Days</span></h1>
           <p className="text-lg text-gray-300 mb-8">Intensive courses designed to bridge the gap between academia and industry through project mastery and real startup exposure.</p>
 
           <div className="flex flex-row space-x-4">
-            <button className="px-6 py-3 bg-linear-to-r from-sky-500 to-emerald-700 rounded-full font-semibold text-white text-md hover:from-indigo-600 to-purple-800 cursor-pointer">Start Your Journey</button>
+            <button className="px-6 py-3 bg-linear-to-r from-sky-500  rounded-full font-semibold text-white text-md hover:from-indigo-600 to-purple-800 cursor-pointer">Start Your Journey</button>
             <button className="px-6 py-3 rounded-full font-semibold text-white border-2 border-emerald-400 text-md hover:bg-linear-to-r from-emerald-500 to-blue-700 cursor-pointer">Explore Courses </button>
           </div>
         </div>
@@ -41,7 +41,7 @@ const LandingPage = () => {
           <div className="w-1/4 h-70 py-4 bg-linear-to-br from-indigo-800 to-[#070B1E] rounded-2xl flex items-start justify-center border border-[#0B132E] transition-all duration-300 ease-out 
             hover:shadow-[0_0_30px_rgba(59,130,246,0.6)] hover:-translate-y-2">
             <div className="flex flex-col items-start justify-around  px-6 space-y-4">
-              <span className="px-4 text-[15px] font-semibold py-[8px]  border border-gray-400 rounded-full text-blue-200 ">
+              <span className="px-4 text-[15px] font-semibold py-2  border border-gray-400 rounded-full text-blue-200 ">
                 <span className="flex flex-row items-center space-x-2">
                   <span>
                     <svg width="20px" height="20px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" id="Layer_3" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -71,7 +71,7 @@ const LandingPage = () => {
           <div className="w-1/4 h-70 py-4 bg-linear-to-br from-indigo-800 to-[#070B1E] rounded-2xl flex items-start justify-around border border-[#0B132E] transition-all duration-300 ease-out 
             hover:shadow-[0_0_30px_rgba(59,130,246,0.6)] hover:-translate-y-2">
             <div className="flex flex-col justify-around items-start px-6 space-y-4">
-              <span className="px-4 text-[15px] font-semibold py-[8px]  outline rounded-full text-blue-200">
+              <span className="px-4 text-[15px] font-semibold py-2  outline rounded-full text-blue-200">
                 <span className="flex flex-row items-center space-x-2">
                   <span>
                     <svg width="20px" height="20x" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg" fill="none"><path stroke="#f9f9f9" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" d="M92.953 57.154c22.628-22.627 57.983-35.355 76.368-33.94 1.414 18.384-11.314 53.74-33.941 76.367-22.628 22.627-48.084 39.598-62.226 45.255L47.698 119.38c5.657-14.142 22.628-39.598 45.255-62.226Zm-5.657 48.084-39.598 39.598" /><circle cx="128.309" cy="64.225" r="12" fill="#f8f5f5" transform="rotate(45 128.309 64.225)" /><path stroke="#faf3f3" stroke-linecap="round" stroke-linejoin="round" stroke-width="12" d="m115.581 119.38 1.569 17.256c.779 8.57-3.09 16.9-10.139 21.835l-16.886 11.82-1.414-32.527M73.154 76.953l-17.256-1.569a24 24 0 0 0-21.835 10.139l-11.82 16.886 32.527 1.414" /></svg>
@@ -96,7 +96,7 @@ const LandingPage = () => {
           <div className="w-1/4 h-70 py-4 bg-linear-to-br from-indigo-800 to-[#070B1E] rounded-2xl flex items-start justify-center border border-[#0B132E] transition-all duration-300 ease-out 
             hover:shadow-[0_0_30px_rgba(59,130,246,0.6)] hover:-translate-y-2">
             <div className="flex flex-col justify-around items-start px-6 space-y-4">
-              <span className="px-4 text-[15px] font-semibold py-[8px]  outline rounded-full text-blue-200 ">
+              <span className="px-4 text-[15px] font-semibold py-2 outline rounded-full text-blue-200 ">
                 <span className="flex flex-row items-center space-x-2">
                   <span>
                     <svg fill="#f5f0f0" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -140,7 +140,7 @@ const LandingPage = () => {
           <div className="w-1/4 h-70 py-4 bg-linear-to-br from-indigo-800 to-[#070B1E] rounded-2xl flex items-start justify-center border border-[#0B132E] transition-all duration-300 ease-out 
             hover:shadow-[0_0_30px_rgba(59,130,246,0.6)] hover:-translate-y-2">
             <div className="flex flex-col justify-around items-start px-6 space-y-4">
-              <span className="px-4 text-[15px] font-semibold py-[8px]  outline rounded-full text-blue-200 ">
+              <span className="px-4 text-[15px] font-semibold py-2  outline rounded-full text-blue-200 ">
                 <span className="flex flex-row items-center space-x-2">
                   <span>
                     <svg width="23px" height="23px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -167,6 +167,173 @@ const LandingPage = () => {
 
 
       </div>
+
+
+    {/* Section 3 */}
+      <div className="mt-10 px-20 py-16 ">
+      <h2 className="text-center text-white text-4xl font-bold">Course <span className="bg-linear-to-r from-violet-600  to-pink-500 text-transparent bg-clip-text">Framework</span></h2>
+      <div className="flex flex-row space-x-8 text-white px-30 py-4">
+        <div className="w-[49%] flex flex-col items-end">
+
+          {/* box */}
+          <div className="pt-14">
+            <div className="w-20 h-20  rounded-2xl bg-violet-500/10  outline-2 outline-offset-4 outline-violet-500">
+                <div className='w-full h-full flex flex-col items-center justify-center'>
+                  <span>
+                    <p className="font-bold text-sm text-amber-200">TIME</p>
+                  </span>
+                  <span>
+                    <p className="text-sm font-semibold">Start</p>
+                  </span>
+                </div>
+            </div>
+          </div>
+
+
+          <div className="pt-36">
+            <h2 className="text-xl font-semibold text-end">Learning Phase (Lectures)</h2>
+            <p className="text-gray-300 text-end">Daily lectures, concepts, demos and practice sessions.</p>
+          </div>
+
+          {/* box */}
+          <div className="pt-38">
+            <div className="w-20 h-20  rounded-2xl bg-violet-500/10  outline-2 outline-offset-4 outline-violet-500">
+                <div className='w-full h-full flex flex-col items-center justify-center'>
+                  <span>
+                    <p className="font-bold text-sm text-amber-200">TIME</p>
+                  </span>
+                  <span>
+                    <p className="text-sm font-semibold">Day 7</p>
+                  </span>
+                </div>
+            </div>
+          </div>
+
+          <div className="pt-36">
+            <h2 className="text-xl font-semibold text-end">Project Phase
+ (Lectures)</h2>
+            <p className="text-gray-300 text-end">Build a real-world project with guidance and mentorship.</p>
+          </div>
+
+
+           {/* box */}
+          <div className="pt-38">
+            <div className="w-20 h-20  rounded-2xl bg-violet-500/10  outline-2 outline-offset-4 outline-violet-500">
+                <div className='w-full h-full flex flex-col items-center justify-center'>
+                  <span>
+                    <p className="font-bold text-sm text-amber-200">TIME</p>
+                  </span>
+                  <span>
+                    <p className="text-sm font-semibold">Day 27</p>
+                  </span>
+                </div>
+            </div>
+          </div>
+
+          <div className="pt-36">
+            <h2 className="text-xl font-semibold text-end">Certificate Unlocked</h2>
+            <p className="text-gray-300 text-end">Certificate is unlocked after successful review.
+
+</p>
+          </div>
+
+
+          {/* Timeline */}
+        </div>
+        <div className="w-[2%] ">
+          <div className="flex flex-col space-y-1 justify-start items-center h-full ">
+            
+            
+            <div className="w-0.5 h-20 rounded-full bg-rose-500"></div>
+            <div className="w-1 h-1 rounded-full  border-4 border-emerald-300 outline-2 outline-offset-4 outline-emerald-500"></div>
+
+           <div className="w-0.5 h-50 rounded-full bg-rose-500"></div>
+            <div className="w-1 h-1 rounded-full  border-4 border-emerald-300 outline-2 outline-offset-4 outline-emerald-500"></div>
+
+            <div className="w-0.5 h-50 rounded-full bg-rose-500"></div>
+            <div className="w-1 h-1 rounded-full  border-4 border-emerald-300 outline-2 outline-offset-4 outline-emerald-500"></div>
+
+            <div className="w-0.5 h-50 rounded-full bg-rose-500"></div>
+            <div className="w-1 h-1 rounded-full  border-4 border-emerald-300 outline-2 outline-offset-4 outline-emerald-500"></div>
+
+           <div className="w-0.5 h-50 rounded-full bg-rose-500"></div>
+            <div className="w-1 h-1 rounded-full  border-4 border-emerald-300 outline-2 outline-offset-4 outline-emerald-500"></div>
+
+            <div className="w-0.5 h-50 rounded-full bg-rose-500"></div>
+            <div className="w-1 h-1 rounded-full  border-4 border-emerald-300 outline-2 outline-offset-4 outline-emerald-500"></div>
+            <div className="w-0.5 h-20 rounded-full bg-linear-to-b from-rose-500 to-[#0D1326]"></div>
+       
+
+          </div>
+        </div>
+        <div className="w-[49%] ">
+          <div className="pt-14"> 
+            <h2 className="text-xl font-semibold">Enrollment & Onboarding</h2>
+            <p className="text-gray-300">Student enrolls and gets access to dashboard, roadmap & resources.</p>
+          </div>
+
+          {/* Box */}
+          <div className="pt-34">
+            <div className="w-20 h-20  rounded-2xl bg-violet-500/10  outline-2 outline-offset-4 outline-violet-500">
+                <div className='w-full h-full flex flex-col items-center justify-center'>
+                  <span>
+                    <p className="font-bold text-sm text-amber-200">TIME</p>
+                  </span>
+                  <span>
+                    <p className="text-sm font-semibold">Days 1-7</p>
+                  </span>
+                </div>
+            </div>
+          </div>
+
+
+
+
+          <div className="pt-36"> 
+            <h2 className="text-xl font-semibold">Mid Evaluation</h2>
+            <p className="text-gray-300">Progress check and readiness for the project phase.</p>
+          </div>
+
+           {/* Box */}
+          <div className="pt-34">
+            <div className="w-20 h-20  rounded-2xl bg-violet-500/10  outline-2 outline-offset-4 outline-violet-500">
+                <div className='w-full h-full flex flex-col items-center justify-center'>
+                  <span>
+                    <p className="font-bold text-sm text-amber-200">TIME</p>
+                  </span>
+                  <span>
+                    <p className="text-sm font-semibold">Days 8-26</p>
+                  </span>
+                </div>
+            </div>
+          </div>
+
+            <div className="pt-40"> 
+            <h2 className="text-xl font-semibold">Project Submission</h2>
+            <p className="text-gray-300">Final project is submitted for review and validation.</p>
+          </div>
+
+
+          {/* Box */}
+          <div className="pt-38">
+            <div className="w-20 h-20  rounded-2xl bg-violet-500/10  outline-2 outline-offset-4 outline-violet-500">
+                <div className='w-full h-full flex flex-col items-center justify-center'>
+                  <span>
+                    <p className="font-bold text-sm text-amber-200">TIME</p>
+                  </span>
+                  <span>
+                    <p className="text-sm font-semibold">Day 28</p>
+                  </span>
+                </div>
+            </div>
+          </div>
+
+        </div>
+        
+      </div>
+      </div>
+
+      <div className='h-90'></div>
     </div>
   )
 }

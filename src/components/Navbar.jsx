@@ -10,7 +10,7 @@ const Navbar = () => {
                     <li className="hover:text-sky-200 cursor-pointer ">Home</li>
                     <li className="text-sky-300 cursor-pointer ">Our Courses</li>
                     <li className="hover:text-sky-200 cursor-pointer ">About Us</li>
-                    <li className="text-white cursor-pointer bg-linear-to-br from-sky-500 to-blue-600 px-4 py-[5px] rounded-full  hover:from-sky-400 hover:to-blue-500">Register</li>
+                    <li className="text-white cursor-pointer bg-linear-to-br from-sky-500 to-blue-600 px-4 py-1.25 rounded-full  hover:from-sky-400 hover:to-blue-500">Register</li>
                 </ul>
             </div>
         </div>
