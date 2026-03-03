@@ -34,7 +34,7 @@ const Footer = () => {
 
       <div className="w-full h-px bg-gray-700 mt-18 mb-4"></div>
       <div className="flex flex-row justify-between items-center text-xs text-gray-400">
-        <span><p>© 2024 Sprintern. All rights reserved.</p></span>
+        <span><p>© 2026 Sprintern. All rights reserved.</p></span>
         <span><p>LinkedIn</p></span>
       </div>
     </div>

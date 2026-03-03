@@ -1,10 +1,11 @@
 import React from 'react'
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
-
+import Courses from './Courses';
 
 const LandingPage = () => {
   return (
     <div className=" bg-linear-to-br from-[#030712] to-[#131830]">
+     
       <div className="p-4 flex flex-row">
         <div className="w-1/2 flex flex-col justify-center items-start px-16 py-6">
 
@@ -30,11 +31,11 @@ const LandingPage = () => {
 
       </div>
 
-      <div className="h-1 my-6 bg-linear-to-l from-[#0E142A] to-sky-700/50 
+      <div className="h-1 my-6 bg-linear-to-l from-[#0B1023] to-sky-700/50 
             "></div>
 
 
-      <div className="px-20 pt-8 pb-16">
+      <div className="px-20 py-16">
         <h2 className="text-5xl font-bold text-white mb-4">The Sprintern Advantage</h2>
         <p className="text-xl text-gray-300 mb-10">Experience a premium, enterprise-grade learning environment focused on accelerating your engineering career.</p>
         <div className="flex flex-row space-x-8 ">
