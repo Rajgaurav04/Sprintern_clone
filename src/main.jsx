@@ -5,6 +5,7 @@ import Courses from './components/Courses'
 import Layout from './components/Layout'
 import {Route} from 'react-router-dom'
 import About from './components/About'
+import Admin from './components/Admin'
 import './index.css'
 import App from './App.jsx'
 
@@ -17,7 +18,10 @@ const router = createBrowserRouter(
       <Route path="" element={<LandingPage/>}/>
       <Route path="courses" element={<Courses/>}/>
       <Route path="about" element={<About/>}/>
+      <Route path="admin" element={<Admin/>}/>
     </Route>
+    
+      
   )
 );
 createRoot(document.getElementById('root')).render(
