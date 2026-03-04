@@ -5,7 +5,7 @@ A clone for [Sprintern](https://sprintern.in/), a platform for giving practical 
 ## Project setup steps
 
 1. Clone this project 
-2. Change Directory [`cd s_clone`]
+2. Change Directory [`cd sprintern_clone`]
 3. Install Dependencies using npm [`npm i`]
 4. Run Local Server [`npm run dev`]
 
