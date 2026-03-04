@@ -1,6 +1,6 @@
 # Sprintern Clone
 
-A clone for Sprintern, a platform for giving practical hand-on internship experience.
+A clone for [Sprintern](https://sprintern.in/), a platform for giving practical hand-on internship experience.
 
 ## Project setup steps
 
