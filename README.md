@@ -13,6 +13,6 @@ A clone for Sprintern, a platform for giving practical hand-on internship experi
 
 Used React, HTML5, TailwindCSS, and IndexedDB.
 
-===================
+##
 
 Thanks, Have a great Day
